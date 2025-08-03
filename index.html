@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
+        <nav class="navbar container">
             <h1 class="logo">Vanshika Agrawal</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="Education/index.html">Education</a></li>
                 <li><a href="Experience/index.html">Experience</a></li>
                 <li><a href="Projects/index.html">Projects</a></li>
@@ -22,7 +27,7 @@
         </nav>
     </header>
 
-    <main class="main-content">
+    <main class="main-content container">
         <section class="intro-section">
             <div class="intro-text">
                 <h2>Hello, I'm Vanshika Agrawal</h2>
@@ -39,8 +44,9 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Vanshika Agrawal. All rights reserved.</p>
+    <footer class="footer">
+        <p>&copy; 2025 Vanshika Agrawal. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

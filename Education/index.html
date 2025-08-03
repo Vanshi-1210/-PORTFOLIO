@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
+        <nav class="navbar container">
             <h1 class="logo">Vanshika Agrawal</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="index.html" class="active">Education</a></li>
@@ -22,24 +27,23 @@
         </nav>
     </header>
 
-    <main class="content-main">
+    <main class="content-main container">
         <section class="section">
             <h2 class="section-title">Education</h2>
-            <div class="tree-container">
-                <div class="tree-item animate-on-scroll visible">
-                    <div class="tree-node">
-                        <h3>IEC College of Engineering and Technology</h3>
-                        <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
-                        <p><strong>Years Attended:</strong> 2024-2028</p>
-                        <p><strong>Location:</strong> Gr. Noida, India</p>
-                    </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>IEC College of Engineering and Technology</h3>
+                    <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+                    <p><strong>Years Attended:</strong> 2025-2028</p>
+                    <p><strong>Location:</strong> Gr. Noida, India</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Vanshika Agrawal. All rights reserved.</p>
+    <footer class="footer">
+        <p>&copy; 2025 Vanshika Agrawal. All rights reserved.</p>
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html>
